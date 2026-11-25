@@ -1,0 +1,29 @@
+[project]
+name = "surgery"
+version = "0.1.0"
+description = "Surgical specialization of Qwen: layer-level interventions on small models"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "torch>=2.5",
+    "transformers>=4.51",
+    "accelerate>=1.0",
+    "scikit-learn>=1.5",
+    "numpy>=1.26",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+mlx = [
+    "mlx==0.32.4; sys_platform == 'darwin'",
+    "mlx-lm==0.32.2; sys_platform == 'darwin'",
+]
+
+[tool.uv]
+default-groups = ["dev", "mlx"]
+
+[tool.setuptools]
+packages = ["surgery"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

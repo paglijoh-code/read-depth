@@ -1,0 +1,663 @@
+{
+ "concepts": [
+  "tree",
+  "bush",
+  "cactus",
+  "fern",
+  "grass",
+  "vine",
+  "log",
+  "flower",
+  "moss",
+  "seaweed"
+ ],
+ "features": {
+  "alive": {
+   "true": [
+    "tree",
+    "bush",
+    "cactus",
+    "fern",
+    "grass",
+    "vine",
+    "flower",
+    "moss",
+    "seaweed"
+   ],
+   "pos": [
+    "It is alive.",
+    "It is a living thing.",
+    "This thing is alive."
+   ],
+   "neg": [
+    "It is not alive.",
+    "It is not a living thing.",
+    "This thing is not alive."
+   ]
+  },
+  "woody": {
+   "true": [
+    "tree",
+    "bush",
+    "log"
+   ],
+   "pos": [
+    "Its stem is hard like wood.",
+    "It has a hard, woody stem.",
+    "The stem is as hard as wood."
+   ],
+   "neg": [
+    "Its stem is not hard like wood.",
+    "It has no hard, woody stem.",
+    "The stem is not as hard as wood."
+   ]
+  },
+  "tall": {
+   "true": [
+    "tree"
+   ],
+   "pos": [
+    "It is usually taller than a grown person.",
+    "It usually grows above head height.",
+    "A grown person is usually shorter than it."
+   ],
+   "neg": [
+    "It is not usually taller than a grown person.",
+    "It does not usually grow above head height.",
+    "A grown person is usually taller than it."
+   ]
+  },
+  "spines": {
+   "true": [
+    "cactus"
+   ],
+   "pos": [
+    "It has sharp spines.",
+    "Sharp spines cover it.",
+    "There are sharp spines on it."
+   ],
+   "neg": [
+    "It has no sharp spines.",
+    "No sharp spines cover it.",
+    "There are no sharp spines on it."
+   ]
+  },
+  "sea": {
+   "true": [
+    "seaweed"
+   ],
+   "pos": [
+    "It lives in the sea.",
+    "It grows in the sea.",
+    "The sea is where it lives."
+   ],
+   "neg": [
+    "It does not live in the sea.",
+    "It does not grow in the sea.",
+    "The sea is not where it lives."
+   ]
+  },
+  "climbs": {
+   "true": [
+    "vine"
+   ],
+   "pos": [
+    "It climbs up walls and trees.",
+    "It climbs on walls and trees.",
+    "Walls and trees are what it climbs."
+   ],
+   "neg": [
+    "It does not climb up walls and trees.",
+    "It does not climb on walls and trees.",
+    "It never climbs walls and trees."
+   ]
+  },
+  "petals": {
+   "true": [
+    "flower"
+   ],
+   "pos": [
+    "It has colorful petals.",
+    "Colorful petals grow on it.",
+    "There are colorful petals on it."
+   ],
+   "neg": [
+    "It has no colorful petals.",
+    "No colorful petals grow on it.",
+    "There are no colorful petals on it."
+   ]
+  },
+  "damp": {
+   "true": [
+    "fern",
+    "moss"
+   ],
+   "pos": [
+    "It grows best in damp, shady places.",
+    "It likes damp, shady places.",
+    "Damp, shady places suit it best."
+   ],
+   "neg": [
+    "It does not grow best in damp, shady places.",
+    "It does not like damp, shady places.",
+    "Damp, shady places do not suit it."
+   ]
+  },
+  "fronds": {
+   "true": [
+    "fern"
+   ],
+   "pos": [
+    "Its leaves are feathery fronds.",
+    "It has leaves that are feathery fronds.",
+    "The leaves on it are feathery fronds."
+   ],
+   "neg": [
+    "Its leaves are not feathery fronds.",
+    "It has no leaves that are feathery fronds.",
+    "The leaves on it are not feathery fronds."
+   ]
+  },
+  "blades": {
+   "true": [
+    "grass"
+   ],
+   "pos": [
+    "Its leaves are long, thin blades.",
+    "It has leaves that are long, thin blades.",
+    "The leaves on it are long, thin blades."
+   ],
+   "neg": [
+    "Its leaves are not long, thin blades.",
+    "It has no leaves that are long, thin blades.",
+    "The leaves on it are not long, thin blades."
+   ]
+  },
+  "grazed": {
+   "true": [
+    "grass"
+   ],
+   "pos": [
+    "Cows and sheep eat it.",
+    "Cows and sheep feed on it.",
+    "It is food for cows and sheep."
+   ],
+   "neg": [
+    "Cows and sheep do not eat it.",
+    "Cows and sheep do not feed on it.",
+    "It is not food for cows and sheep."
+   ]
+  },
+  "desert": {
+   "true": [
+    "cactus"
+   ],
+   "pos": [
+    "It grows in the desert.",
+    "It can grow in the desert.",
+    "The desert is where it grows."
+   ],
+   "neg": [
+    "It does not grow in the desert.",
+    "It cannot grow in the desert.",
+    "The desert is not where it grows."
+   ]
+  },
+  "stores": {
+   "true": [
+    "cactus"
+   ],
+   "pos": [
+    "It stores water in its thick stem.",
+    "Water is stored in its thick stem.",
+    "Its thick stem holds a store of water."
+   ],
+   "neg": [
+    "It does not store water in a thick stem.",
+    "Water is not stored in a thick stem.",
+    "It has no thick stem that holds water."
+   ]
+  },
+  "bark": {
+   "true": [
+    "tree",
+    "log"
+   ],
+   "pos": [
+    "It has thick bark.",
+    "Thick bark covers it.",
+    "There is thick bark on it."
+   ],
+   "neg": [
+    "It has no thick bark.",
+    "No thick bark covers it.",
+    "There is no thick bark on it."
+   ]
+  },
+  "forest": {
+   "true": [
+    "fern",
+    "moss",
+    "log"
+   ],
+   "pos": [
+    "It is found on the floor of a forest.",
+    "It can be found on a forest floor.",
+    "The floor of a forest is where it is found."
+   ],
+   "neg": [
+    "It is not found on the floor of a forest.",
+    "It cannot be found on a forest floor.",
+    "The floor of a forest is not where it is found."
+   ]
+  },
+  "garden": {
+   "true": [
+    "bush",
+    "vine",
+    "flower"
+   ],
+   "pos": [
+    "It is planted in flower beds or along garden fences.",
+    "People plant it in flower beds or along fences.",
+    "It is often planted along garden fences or beds."
+   ],
+   "neg": [
+    "It is not planted in flower beds or along garden fences.",
+    "People do not plant it in flower beds or along fences.",
+    "It is not often planted along garden fences or beds."
+   ]
+  },
+  "firewood": {
+   "true": [
+    "log"
+   ],
+   "pos": [
+    "People burn it in a fireplace.",
+    "It is burned in a fireplace.",
+    "A fireplace is where people burn it."
+   ],
+   "neg": [
+    "People do not burn it in a fireplace.",
+    "It is not burned in a fireplace.",
+    "A fireplace is not where people burn it."
+   ]
+  },
+  "slimy": {
+   "true": [
+    "seaweed"
+   ],
+   "pos": [
+    "It feels slimy.",
+    "It is slimy to touch.",
+    "Touching it feels slimy."
+   ],
+   "neg": [
+    "It does not feel slimy.",
+    "It is not slimy to touch.",
+    "Touching it does not feel slimy."
+   ]
+  },
+  "cushion": {
+   "true": [
+    "moss"
+   ],
+   "pos": [
+    "It forms a soft cushion on rocks.",
+    "It makes a soft cushion on rocks.",
+    "A soft cushion on rocks is what it forms."
+   ],
+   "neg": [
+    "It does not form a soft cushion on rocks.",
+    "It makes no soft cushion on rocks.",
+    "A soft cushion on rocks is not what it forms."
+   ]
+  },
+  "manystems": {
+   "true": [
+    "bush"
+   ],
+   "pos": [
+    "It has many woody stems from the base.",
+    "Many woody stems rise from its base.",
+    "Its base sends up many woody stems."
+   ],
+   "neg": [
+    "It does not have many woody stems from the base.",
+    "Not many woody stems rise from its base.",
+    "Its base does not send up many woody stems."
+   ]
+  },
+  "branches": {
+   "true": [
+    "tree",
+    "bush"
+   ],
+   "pos": [
+    "It has branches.",
+    "Branches grow on it.",
+    "There are branches on it."
+   ],
+   "neg": [
+    "It has no branches.",
+    "No branches grow on it.",
+    "There are no branches on it."
+   ]
+  },
+  "meadow": {
+   "true": [
+    "grass",
+    "flower"
+   ],
+   "pos": [
+    "It covers fields and meadows.",
+    "It grows across fields and meadows.",
+    "Fields and meadows are covered by it."
+   ],
+   "neg": [
+    "It does not cover fields and meadows.",
+    "It does not grow across fields and meadows.",
+    "Fields and meadows are not covered by it."
+   ]
+  },
+  "lieon": {
+   "true": [
+    "grass",
+    "moss"
+   ],
+   "pos": [
+    "It is soft enough to lie down on.",
+    "You can lie down on it comfortably.",
+    "It makes a soft bed to lie on."
+   ],
+   "neg": [
+    "It is not soft enough to lie down on.",
+    "You cannot lie down on it comfortably.",
+    "It makes no soft bed to lie on."
+   ]
+  },
+  "pot": {
+   "true": [
+    "cactus",
+    "fern",
+    "flower"
+   ],
+   "pos": [
+    "It is often kept in a pot at home.",
+    "People often keep it in a pot at home.",
+    "A pot at home is where it is often kept."
+   ],
+   "neg": [
+    "It is not often kept in a pot at home.",
+    "People do not often keep it in a pot at home.",
+    "A pot at home is not where it is often kept."
+   ]
+  },
+  "soft": {
+   "true": [
+    "fern",
+    "grass",
+    "vine",
+    "flower",
+    "moss",
+    "seaweed"
+   ],
+   "pos": [
+    "It is soft and bendy, not stiff.",
+    "It is soft and bends easily.",
+    "Soft and bendy, it is not stiff."
+   ],
+   "neg": [
+    "It is stiff, not soft and bendy.",
+    "It is stiff and does not bend easily.",
+    "Stiff, it is not soft and bendy."
+   ]
+  },
+  "standing": {
+   "true": [
+    "tree",
+    "bush",
+    "cactus",
+    "fern",
+    "grass",
+    "flower"
+   ],
+   "pos": [
+    "It stands upright on its own.",
+    "It can stand up by itself.",
+    "Upright, it stands on its own."
+   ],
+   "neg": [
+    "It does not stand upright on its own.",
+    "It cannot stand up by itself.",
+    "It cannot stand upright on its own."
+   ]
+  },
+  "creeps": {
+   "true": [
+    "vine",
+    "moss"
+   ],
+   "pos": [
+    "It spreads across walls, trees or rocks.",
+    "It creeps across walls, trees or rocks.",
+    "Walls, trees or rocks are what it spreads across."
+   ],
+   "neg": [
+    "It does not spread across walls, trees or rocks.",
+    "It does not creep across walls, trees or rocks.",
+    "Walls, trees or rocks are not what it spreads across."
+   ]
+  },
+  "small": {
+   "true": [
+    "grass",
+    "moss",
+    "flower"
+   ],
+   "pos": [
+    "It is usually shorter than a person's knee.",
+    "It usually stays below knee height.",
+    "A person's knee is usually higher than it."
+   ],
+   "neg": [
+    "It is not usually shorter than a person's knee.",
+    "It does not usually stay below knee height.",
+    "A person's knee is usually lower than it."
+   ]
+  },
+  "wet": {
+   "true": [
+    "fern",
+    "moss",
+    "seaweed"
+   ],
+   "pos": [
+    "It needs to stay wet to live.",
+    "It cannot live unless it stays wet.",
+    "Staying wet is needed for it to live."
+   ],
+   "neg": [
+    "It does not need to stay wet to live.",
+    "It can live without staying wet.",
+    "Staying wet is not needed for it to live."
+   ]
+  }
+ },
+ "phrase_tokens_qwen": {
+  "It is alive.": 4,
+  "It is a living thing.": 6,
+  "This thing is alive.": 5,
+  "It is not alive.": 5,
+  "It is not a living thing.": 7,
+  "This thing is not alive.": 6,
+  "Its stem is hard like wood.": 7,
+  "It has a hard, woody stem.": 9,
+  "The stem is as hard as wood.": 8,
+  "Its stem is not hard like wood.": 8,
+  "It has no hard, woody stem.": 9,
+  "The stem is not as hard as wood.": 9,
+  "It is usually taller than a grown person.": 9,
+  "It usually grows above head height.": 7,
+  "A grown person is usually shorter than it.": 9,
+  "It is not usually taller than a grown person.": 10,
+  "It does not usually grow above head height.": 9,
+  "A grown person is usually taller than it.": 9,
+  "It has sharp spines.": 6,
+  "Sharp spines cover it.": 6,
+  "There are sharp spines on it.": 8,
+  "It has no sharp spines.": 7,
+  "No sharp spines cover it.": 7,
+  "There are no sharp spines on it.": 9,
+  "It lives in the sea.": 6,
+  "It grows in the sea.": 6,
+  "The sea is where it lives.": 7,
+  "It does not live in the sea.": 8,
+  "It does not grow in the sea.": 8,
+  "The sea is not where it lives.": 8,
+  "It climbs up walls and trees.": 7,
+  "It climbs on walls and trees.": 7,
+  "Walls and trees are what it climbs.": 9,
+  "It does not climb up walls and trees.": 9,
+  "It does not climb on walls and trees.": 9,
+  "It never climbs walls and trees.": 7,
+  "It has colorful petals.": 5,
+  "Colorful petals grow on it.": 7,
+  "There are colorful petals on it.": 7,
+  "It has no colorful petals.": 6,
+  "No colorful petals grow on it.": 7,
+  "There are no colorful petals on it.": 8,
+  "It grows best in damp, shady places.": 9,
+  "It likes damp, shady places.": 7,
+  "Damp, shady places suit it best.": 9,
+  "It does not grow best in damp, shady places.": 11,
+  "It does not like damp, shady places.": 9,
+  "Damp, shady places do not suit it.": 10,
+  "Its leaves are feathery fronds.": 9,
+  "It has leaves that are feathery fronds.": 11,
+  "The leaves on it are feathery fronds.": 11,
+  "Its leaves are not feathery fronds.": 10,
+  "It has no leaves that are feathery fronds.": 12,
+  "The leaves on it are not feathery fronds.": 12,
+  "Its leaves are long, thin blades.": 8,
+  "It has leaves that are long, thin blades.": 10,
+  "The leaves on it are long, thin blades.": 10,
+  "Its leaves are not long, thin blades.": 9,
+  "It has no leaves that are long, thin blades.": 11,
+  "The leaves on it are not long, thin blades.": 11,
+  "Cows and sheep eat it.": 7,
+  "Cows and sheep feed on it.": 8,
+  "It is food for cows and sheep.": 8,
+  "Cows and sheep do not eat it.": 9,
+  "Cows and sheep do not feed on it.": 10,
+  "It is not food for cows and sheep.": 9,
+  "It grows in the desert.": 6,
+  "It can grow in the desert.": 7,
+  "The desert is where it grows.": 7,
+  "It does not grow in the desert.": 8,
+  "It cannot grow in the desert.": 7,
+  "The desert is not where it grows.": 8,
+  "It stores water in its thick stem.": 8,
+  "Water is stored in its thick stem.": 8,
+  "Its thick stem holds a store of water.": 9,
+  "It does not store water in a thick stem.": 10,
+  "Water is not stored in a thick stem.": 9,
+  "It has no thick stem that holds water.": 9,
+  "It has thick bark.": 5,
+  "Thick bark covers it.": 6,
+  "There is thick bark on it.": 7,
+  "It has no thick bark.": 6,
+  "No thick bark covers it.": 6,
+  "There is no thick bark on it.": 8,
+  "It is found on the floor of a forest.": 10,
+  "It can be found on a forest floor.": 9,
+  "The floor of a forest is where it is found.": 11,
+  "It is not found on the floor of a forest.": 11,
+  "It cannot be found on a forest floor.": 9,
+  "The floor of a forest is not where it is found.": 12,
+  "It is planted in flower beds or along garden fences.": 11,
+  "People plant it in flower beds or along fences.": 10,
+  "It is often planted along garden fences or beds.": 10,
+  "It is not planted in flower beds or along garden fences.": 12,
+  "People do not plant it in flower beds or along fences.": 12,
+  "It is not often planted along garden fences or beds.": 11,
+  "People burn it in a fireplace.": 7,
+  "It is burned in a fireplace.": 7,
+  "A fireplace is where people burn it.": 8,
+  "People do not burn it in a fireplace.": 9,
+  "It is not burned in a fireplace.": 8,
+  "A fireplace is not where people burn it.": 9,
+  "It feels slimy.": 5,
+  "It is slimy to touch.": 7,
+  "Touching it feels slimy.": 7,
+  "It does not feel slimy.": 7,
+  "It is not slimy to touch.": 8,
+  "Touching it does not feel slimy.": 9,
+  "It forms a soft cushion on rocks.": 8,
+  "It makes a soft cushion on rocks.": 8,
+  "A soft cushion on rocks is what it forms.": 10,
+  "It does not form a soft cushion on rocks.": 10,
+  "It makes no soft cushion on rocks.": 8,
+  "A soft cushion on rocks is not what it forms.": 11,
+  "It has many woody stems from the base.": 10,
+  "Many woody stems rise from its base.": 9,
+  "Its base sends up many woody stems.": 9,
+  "It does not have many woody stems from the base.": 12,
+  "Not many woody stems rise from its base.": 10,
+  "Its base does not send up many woody stems.": 11,
+  "It has branches.": 4,
+  "Branches grow on it.": 6,
+  "There are branches on it.": 6,
+  "It has no branches.": 5,
+  "No branches grow on it.": 6,
+  "There are no branches on it.": 7,
+  "It covers fields and meadows.": 7,
+  "It grows across fields and meadows.": 8,
+  "Fields and meadows are covered by it.": 9,
+  "It does not cover fields and meadows.": 9,
+  "It does not grow across fields and meadows.": 10,
+  "Fields and meadows are not covered by it.": 10,
+  "It is soft enough to lie down on.": 9,
+  "You can lie down on it comfortably.": 8,
+  "It makes a soft bed to lie on.": 9,
+  "It is not soft enough to lie down on.": 10,
+  "You cannot lie down on it comfortably.": 8,
+  "It makes no soft bed to lie on.": 9,
+  "It is often kept in a pot at home.": 10,
+  "People often keep it in a pot at home.": 10,
+  "A pot at home is where it is often kept.": 11,
+  "It is not often kept in a pot at home.": 11,
+  "People do not often keep it in a pot at home.": 12,
+  "A pot at home is not where it is often kept.": 12,
+  "It is soft and bendy, not stiff.": 10,
+  "It is soft and bends easily.": 7,
+  "Soft and bendy, it is not stiff.": 10,
+  "It is stiff, not soft and bendy.": 10,
+  "It is stiff and does not bend easily.": 9,
+  "Stiff, it is not soft and bendy.": 11,
+  "It stands upright on its own.": 7,
+  "It can stand up by itself.": 7,
+  "Upright, it stands on its own.": 10,
+  "It does not stand upright on its own.": 9,
+  "It cannot stand up by itself.": 7,
+  "It cannot stand upright on its own.": 8,
+  "It spreads across walls, trees or rocks.": 9,
+  "It creeps across walls, trees or rocks.": 10,
+  "Walls, trees or rocks are what it spreads across.": 12,
+  "It does not spread across walls, trees or rocks.": 11,
+  "It does not creep across walls, trees or rocks.": 11,
+  "Walls, trees or rocks are not what it spreads across.": 13,
+  "It is usually shorter than a person's knee.": 10,
+  "It usually stays below knee height.": 7,
+  "A person's knee is usually higher than it.": 10,
+  "It is not usually shorter than a person's knee.": 11,
+  "It does not usually stay below knee height.": 9,
+  "A person's knee is usually lower than it.": 10,
+  "It needs to stay wet to live.": 8,
+  "It cannot live unless it stays wet.": 8,
+  "Staying wet is needed for it to live.": 10,
+  "It does not need to stay wet to live.": 10,
+  "It can live without staying wet.": 7,
+  "Staying wet is not needed for it to live.": 11
+ }
+}
